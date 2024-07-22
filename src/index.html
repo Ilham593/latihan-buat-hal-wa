@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>membuat tampilan whatsApp</title>
+    <link rel="stylesheet" href="./css/output.css" />
+  </head>
+  <body>
+    <!--navbar start  -->
+    <header id="navbar" class="">
+      <div class="">
+        <nav
+          class="w-full flex px-2 justify-between py-3 border-b-2"
+        >
+          <!-- start logo -->
+          <div class="text-green-500 font-bold text-xl">whatsApp</div>
+          <!-- end logo -->
+
+          <!-- start menu -->
+          <div class="relative">
+            <div class="flex">
+              <a href="#" >
+                <img src="/src/img/kamera.svg" alt="" class="w-7 h-7 mr-3" />
+              </a>
+              <a href="#" id="search">
+                <img src="/src/img/search.svg" alt="" class="w-7 h-7 mr-3" />
+              </a>
+              <a href="#" id="menu-toggle">
+                <img src="/src/img/menu.svg" alt="" class="w-7 h-7 mr-3" />
+              </a>
+            </div>
+
+            <nav id="menu" class="w-[200px] shadow-lg shadow-slate-500 p-2 rounded-md absolute right-0 mt-6 hidden transition duration-300 ease-in-out">
+              <ul>
+                <li class="mb-2  hover:bg-slate-100 p-2">
+                  <a href="#" class="mr-3 py-2 px-3 rounded-lg ">Grup baru</a>
+                </li>
+                <li class="mb-2  hover:bg-slate-100 p-2">
+                  <a href="#" class="mr-3 py-2 px-3 rounded-lg ">Siaran baru</a>
+                </li>
+                <li class="mb-2  hover:bg-slate-100 p-2">
+                  <a href="#" class="mr-3 py-2 px-3 rounded-lg ">Perangkat baru</a>
+                </li>
+                <li class="mb-2  hover:bg-slate-100 p-2">
+                  <a href="#" class="mr-3 py-2 px-3 rounded-lg ">Pesan berbintang</a>
+                </li>
+                <li class="mb-2  hover:bg-slate-100 p-2">
+                  <a href="#" class="mr-3 py-2 px-3 rounded-lg ">Setelan</a>
+                </li>
+              </ul>
+            </nav>
+
+            <div id="search-box" class="w-full shadow-lg shadow-slate-500 p-2 rounded-md absolute right-0 mt-6 hidden transition duration-300 ease-in-out">
+              <input type="text" placeholder="Search" class="w-full rounded-md p-2"/>
+          </div>
+        </nav>
+        <!-- end menu -->
+      </div>
+    </header>
+    <!--navbar end  -->
+
+    <!-- <main class=""> -->
+
+<!-- section semua/belum dibaca/grub -->
+    <section id="dibaca">
+      <div class="container">
+        <div class="w-full flex py-3 px-2">
+          <a href="#" class="mr-3 py-2 px-3 rounded-2xl bg-slate-100 hover:bg-green-200 focus:bg-green-400 font-bold text-slate-600 focus:text-slate-900">Semua</a>
+          <a href="#" class="mr-3 py-2 px-3 rounded-2xl bg-slate-100 hover:bg-green-200 focus:bg-green-400 font-bold text-slate-600 focus:text-slate-900">Belum dibaca</a>
+          <a href="#" class="mr-3 py-2 px-3 rounded-2xl bg-slate-100 hover:bg-green-200 focus:bg-green-400 font-bold text-slate-600 focus:text-slate-900">Grup</a>
+        </div>
+      </div>
+    </section>
+<!-- end section dibaca/belum dibaca/grub -->
+
+<!-- section arsip start -->
+    <section id="arsip">
+      <div class="container">
+        <div class="w-full flex px-2">
+          <a href="#" class=" px-3 w-full rounded-2xl hover:bg-green-200 focus:bg-green-400 font-bold text-slate-600 focus:text-slate-900 flex items-center ">
+            <img src="/src/img/arsip.png" alt="" class="w-5 h-5 mr-6"> Diarspikan
+          </a>
+        </div>
+      </div>
+    </section>
+<!-- section arsip end -->
+
+<!-- section chat start -->
+    <section id="chat ">
+      <div class="container">
+        <div class="w-full px-2 mt-3   ">
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+
+
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+
+          <a href="#">
+            <div class="flex items-center hover:bg-slate-50">
+              <img src="/src/img/user1.png" alt="" class="w-10 h-10">
+              <div class="ml-3 w-full">
+                <div class="flex justify-between ">
+                  <h1 class="font-bold text-xl">username</h1>
+                  <p class="text-slate-500">27.10.21</p>
+                </div>
+                
+                <p class="text-slate-500">last seen</p>
+              </div>
+            </div>
+          </a>
+
+          
+          
+        </div>
+      </div>
+    </section>
+<!-- section chat end -->
+    <!-- </main> -->
+    
+
+    <!-- section footer start -->
+    <section id="footer" class="">
+      <div class="container">
+        <div class="w-full flex py-3 px-3 justify-between fixed  items-center bottom-0 bg-slate-200 ">
+            <a href=""  >
+              <div class="">
+                <img src="/src/img/chat.png" alt="" class="w-8 h-8">
+
+              </div>
+              <div>
+                <p class="text-slate-500">Chat</p>
+
+              </div>
+            </a>
+            <a href=""  >
+              <div class="">
+                <img src="/src/img/chat.png" alt="" class="w-8 h-8">
+
+              </div>
+              <div>
+                <p class="text-slate-500">Chat</p>
+
+              </div>
+            </a>
+            <a href=""  >
+              <div class="">
+                <img src="/src/img/chat.png" alt="" class="w-8 h-8">
+
+              </div>
+              <div>
+                <p class="text-slate-500">Chat</p>
+
+              </div>
+            </a>
+            <a href=""  >
+              <div class="">
+                <img src="/src/img/chat.png" alt="" class="w-8 h-8">
+
+              </div>
+              <div>
+                <p class="text-slate-500">Chat</p>
+
+              </div>
+            </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- section footer end -->
+    <script src="/src/app.js"></script>
+  </body>
+</html>

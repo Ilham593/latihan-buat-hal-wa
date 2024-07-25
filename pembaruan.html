@@ -4,9 +4,9 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
-  <link rel="stylesheet" href="/src/css/output.css">
+  <link rel="stylesheet" href="/dist/styles.css">
 </head>
-<body>
+<body >
   <!--navbar start  -->
   <header id="navbar" class="">
     <div class="">
@@ -31,7 +31,7 @@
             </a>
           </div>
 
-          <nav id="menu" class="w-[200px] shadow-lg shadow-slate-500 p-2 rounded-md absolute right-0 mt-6 hidden transition duration-300 ease-in-out">
+          <nav id="menu" class="w-[200px] shadow-lg shadow-slate-500 p-2 rounded-md absolute right-0 mt-6 hidden transition duration-300 ease-in-out z-50">
             <ul>
               <li class="mb-2  hover:bg-slate-100 p-2">
                 <a href="#" class="mr-3 py-2 px-3 rounded-lg ">Grup baru</a>
@@ -59,11 +59,9 @@
     </div>
   </header>
   <!--navbar end  -->
-
-  <main class="overflow-y-scroll h-screen ">
     <section id="update-status">
       <div class="container">
-        <div class="w-full px-2 bg-slate-50 border-b-2 mb-4">
+        <div class="w-full px-2  border-b-2 mb-4">
           <h1 class="mt-6 font-bold text-xl ">Status</h1>
   
           <!-- start user status -->
@@ -251,20 +249,20 @@
     <!-- section  tools start -->
   
     <!-- section tools end -->
-    <section>
+    <section class=" " >
       <div class="container">
-        <div class="w-full fixed bottom-24 left-[470px] flex flex-col justify-center">
-          <div class=" bg-slate-200 shadow shadow-slate-500 rounded-lg h-12 w-12 flex justify-center items-center mb-4">
-            <button class="font-bold text-xl">/</button>
-          </div>
-  
-          <div class=" bg-green-600 shadow shadow-slate-500 rounded-lg h-14 w-14 flex justify-center items-center">
-            <img src="/src/img/kamera.svg" alt="" class="w-8 h-8 ">
-          </div>
+       <div class="w-full border-2 border-slate-300">
+        <div class="w-12 h-12 bg-slate-200 flex items-center justify-center">
+          <h1 class="font-bold text-xl ">/</h1>
         </div>
+
+        <div>
+          <img src="/src/img/kamera.svg0" alt="">
+        </div>
+       </div>
       </div>
+     
     </section>
-  </main>
   <!-- section status start -->
   
   <!-- section footer start -->
